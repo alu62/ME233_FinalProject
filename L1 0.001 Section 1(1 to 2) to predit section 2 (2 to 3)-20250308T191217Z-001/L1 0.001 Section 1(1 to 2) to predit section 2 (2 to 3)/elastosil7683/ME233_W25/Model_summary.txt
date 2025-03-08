@@ -1,0 +1,253 @@
+Model: "Psi"
+________________________________________________________________________________
+ Layer (type)             Output Shape      Param #  Connected to               
+================================================================================
+ I1 (InputLayer)          [(None, 1)]       0        []                         
+                                                                                
+ I2 (InputLayer)          [(None, 1)]       0        []                         
+                                                                                
+ P_stretch (Lambda)       ((None, 1),       0        ['I1[0][0]',               
+                           (None, 1),                 'I2[0][0]']               
+                           (None, 1),                                           
+                           (None, 1))                                           
+                                                                                
+ tf.math.pow_288 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_289 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_291 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_292 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_294 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_295 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_297 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_298 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_300 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_301 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_303 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_304 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_306 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_307 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_309 (TFOpLam  (None, 1)        0        ['P_stretch[0][0]']        
+ bda)                                                                           
+                                                                                
+ tf.math.pow_310 (TFOpLam  (None, 1)        0        ['P_stretch[0][1]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_192  (None, 1)        0        ['tf.math.pow_288[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_289[0][0]']  
+                                                                                
+ tf.math.pow_290 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_194  (None, 1)        0        ['tf.math.pow_291[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_292[0][0]']  
+                                                                                
+ tf.math.pow_293 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_196  (None, 1)        0        ['tf.math.pow_294[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_295[0][0]']  
+                                                                                
+ tf.math.pow_296 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_198  (None, 1)        0        ['tf.math.pow_297[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_298[0][0]']  
+                                                                                
+ tf.math.pow_299 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_200  (None, 1)        0        ['tf.math.pow_300[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_301[0][0]']  
+                                                                                
+ tf.math.pow_302 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_202  (None, 1)        0        ['tf.math.pow_303[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_304[0][0]']  
+                                                                                
+ tf.math.pow_305 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_204  (None, 1)        0        ['tf.math.pow_306[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_307[0][0]']  
+                                                                                
+ tf.math.pow_308 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_206  (None, 1)        0        ['tf.math.pow_309[0][0]',  
+  (TFOpLambda)                                        'tf.math.pow_310[0][0]']  
+                                                                                
+ tf.math.pow_311 (TFOpLam  (None, 1)        0        ['P_stretch[0][2]']        
+ bda)                                                                           
+                                                                                
+ tf.__operators__.add_193  (None, 1)        0        ['tf.__operators__.add_192[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_290[0][0]']  
+                                                                                
+ tf.__operators__.add_195  (None, 1)        0        ['tf.__operators__.add_194[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_293[0][0]']  
+                                                                                
+ tf.__operators__.add_197  (None, 1)        0        ['tf.__operators__.add_196[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_296[0][0]']  
+                                                                                
+ tf.__operators__.add_199  (None, 1)        0        ['tf.__operators__.add_198[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_299[0][0]']  
+                                                                                
+ tf.__operators__.add_201  (None, 1)        0        ['tf.__operators__.add_200[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_302[0][0]']  
+                                                                                
+ tf.__operators__.add_203  (None, 1)        0        ['tf.__operators__.add_202[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_305[0][0]']  
+                                                                                
+ tf.__operators__.add_205  (None, 1)        0        ['tf.__operators__.add_204[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_308[0][0]']  
+                                                                                
+ tf.__operators__.add_207  (None, 1)        0        ['tf.__operators__.add_206[
+  (TFOpLambda)                                       0][0]',                    
+                                                      'tf.math.pow_311[0][0]']  
+                                                                                
+ tf.math.subtract_96 (TFO  (None, 1)        0        ['tf.__operators__.add_193[
+ pLambda)                                            0][0]']                    
+                                                                                
+ tf.math.subtract_97 (TFO  (None, 1)        0        ['tf.__operators__.add_195[
+ pLambda)                                            0][0]']                    
+                                                                                
+ tf.math.subtract_98 (TFO  (None, 1)        0        ['tf.__operators__.add_197[
+ pLambda)                                            0][0]']                    
+                                                                                
+ tf.math.subtract_99 (TFO  (None, 1)        0        ['tf.__operators__.add_199[
+ pLambda)                                            0][0]']                    
+                                                                                
+ tf.math.subtract_100 (TF  (None, 1)        0        ['tf.__operators__.add_201[
+ OpLambda)                                           0][0]']                    
+                                                                                
+ tf.math.subtract_101 (TF  (None, 1)        0        ['tf.__operators__.add_203[
+ OpLambda)                                           0][0]']                    
+                                                                                
+ tf.math.subtract_102 (TF  (None, 1)        0        ['tf.__operators__.add_205[
+ OpLambda)                                           0][0]']                    
+                                                                                
+ tf.math.subtract_103 (TF  (None, 1)        0        ['tf.__operators__.add_207[
+ OpLambda)                                           0][0]']                    
+                                                                                
+ dense_192 (Dense)        (None, 1)         1        ['tf.math.subtract_96[0][0]
+                                                     ']                         
+                                                                                
+ dense_193 (Dense)        (None, 1)         1        ['tf.math.subtract_96[0][0]
+                                                     ']                         
+                                                                                
+ dense_194 (Dense)        (None, 1)         1        ['tf.math.subtract_97[0][0]
+                                                     ']                         
+                                                                                
+ dense_195 (Dense)        (None, 1)         1        ['tf.math.subtract_97[0][0]
+                                                     ']                         
+                                                                                
+ dense_196 (Dense)        (None, 1)         1        ['tf.math.subtract_98[0][0]
+                                                     ']                         
+                                                                                
+ dense_197 (Dense)        (None, 1)         1        ['tf.math.subtract_98[0][0]
+                                                     ']                         
+                                                                                
+ dense_198 (Dense)        (None, 1)         1        ['tf.math.subtract_99[0][0]
+                                                     ']                         
+                                                                                
+ dense_199 (Dense)        (None, 1)         1        ['tf.math.subtract_99[0][0]
+                                                     ']                         
+                                                                                
+ dense_200 (Dense)        (None, 1)         1        ['tf.math.subtract_100[0][0
+                                                     ]']                        
+                                                                                
+ dense_201 (Dense)        (None, 1)         1        ['tf.math.subtract_100[0][0
+                                                     ]']                        
+                                                                                
+ dense_202 (Dense)        (None, 1)         1        ['tf.math.subtract_101[0][0
+                                                     ]']                        
+                                                                                
+ dense_203 (Dense)        (None, 1)         1        ['tf.math.subtract_101[0][0
+                                                     ]']                        
+                                                                                
+ dense_204 (Dense)        (None, 1)         1        ['tf.math.subtract_102[0][0
+                                                     ]']                        
+                                                                                
+ dense_205 (Dense)        (None, 1)         1        ['tf.math.subtract_102[0][0
+                                                     ]']                        
+                                                                                
+ dense_206 (Dense)        (None, 1)         1        ['tf.math.subtract_103[0][0
+                                                     ]']                        
+                                                                                
+ dense_207 (Dense)        (None, 1)         1        ['tf.math.subtract_103[0][0
+                                                     ]']                        
+                                                                                
+ concatenate_108 (Concate  (None, 2)        0        ['dense_192[0][0]',        
+ nate)                                                'dense_193[0][0]']        
+                                                                                
+ concatenate_109 (Concate  (None, 2)        0        ['dense_194[0][0]',        
+ nate)                                                'dense_195[0][0]']        
+                                                                                
+ concatenate_110 (Concate  (None, 2)        0        ['dense_196[0][0]',        
+ nate)                                                'dense_197[0][0]']        
+                                                                                
+ concatenate_111 (Concate  (None, 2)        0        ['dense_198[0][0]',        
+ nate)                                                'dense_199[0][0]']        
+                                                                                
+ concatenate_112 (Concate  (None, 2)        0        ['dense_200[0][0]',        
+ nate)                                                'dense_201[0][0]']        
+                                                                                
+ concatenate_113 (Concate  (None, 2)        0        ['dense_202[0][0]',        
+ nate)                                                'dense_203[0][0]']        
+                                                                                
+ concatenate_114 (Concate  (None, 2)        0        ['dense_204[0][0]',        
+ nate)                                                'dense_205[0][0]']        
+                                                                                
+ concatenate_115 (Concate  (None, 2)        0        ['dense_206[0][0]',        
+ nate)                                                'dense_207[0][0]']        
+                                                                                
+ concatenate_116 (Concate  (None, 16)       0        ['concatenate_108[0][0]',  
+ nate)                                                'concatenate_109[0][0]',  
+                                                      'concatenate_110[0][0]',  
+                                                      'concatenate_111[0][0]',  
+                                                      'concatenate_112[0][0]',  
+                                                      'concatenate_113[0][0]',  
+                                                      'concatenate_114[0][0]',  
+                                                      'concatenate_115[0][0]']  
+                                                                                
+ wx2 (Dense)              (None, 1)         16       ['concatenate_116[0][0]']  
+                                                                                
+================================================================================
+Total params: 32
+Trainable params: 32
+Non-trainable params: 0
+________________________________________________________________________________
